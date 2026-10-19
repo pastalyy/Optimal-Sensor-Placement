@@ -1,0 +1,23 @@
+Pipes loaded: 2252
+  UNITTYPE: MAIN=1208, REL=243, BRANCH=166, INT=116, TR=109, ERS=94, RM=81, OUTFLL=71, DIV=48, DEV=32, EO-RM=27, SIPHON=23 ...
+  SERVICE_STATUS: IN=2250, WIP=2
+  MATERIAL: RC=779, CONC=553, BWK=473, VC=88, GRP=78, MSCL=50, CONCPL=32, UPVC=29, BK/GRC=27, PVC=24, CON/RL=20, CICL=18 ...
+  SUBAREA: KEW=372, GCSY=317, HBCI=235, SET=205, MOON=204, EPS=165, NYM=144, SEO=107, MERI=105, RING=93, DAND=66, WTS=52 ...
+  UPSTREAM_IL: missing/invalid 0 (0.0%)
+  DOWNSTREAM_IL: missing/invalid 0 (0.0%)
+  GRADE: missing/invalid 0 (0.0%)
+  PIPE_LENGTH: missing/invalid 59 (2.6%)
+After filtering: 2144 pipes kept; removed: {'type RM': 81, 'type EO-RM': 27}
+Snapped 4288 pipe ends into 2124 nodes (tolerance 1.0 m)
+Pipes with usable invert levels: 2110 of 2144 (98.4%)
+Junction level match (within 0.5 m): 91.5% after init -> 91.6% after refinement
+Pipes without levels oriented by propagation: 20 of 34 (remaining 14 keep digitised direction)
+Share of levelled pipes with upstream invert >= downstream invert: 96.2%
+  forest step - parallel/duplicate pipes merged: 29
+  forest step - self-loops: 2
+  forest step - extra outflows removed (kept largest drop): 79
+Connected components: 74 (largest 590 nodes; 0 singletons)
+Kept 18 component(s) -> 1932 nodes, 1914 edges
+Final network: 1932 nodes, 1914 edges
+Upstream-set size: min 1, mean 50.2, max 590
+Max out-degree 1, is DAG: True, conn_dict entries: 96,936

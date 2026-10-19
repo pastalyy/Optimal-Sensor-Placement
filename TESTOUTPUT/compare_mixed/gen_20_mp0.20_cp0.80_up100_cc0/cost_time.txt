@@ -1,0 +1,2 @@
+mp:0.2 cp:0.8 iter:20 cc:0 upbound:100 cost_time:13.795808792114258
+mp:0.2 cp:0.8 iter:20 cc:0 upbound:100 cost_time:28.616398334503174
